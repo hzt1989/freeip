@@ -56,6 +56,14 @@ proxies:
   servername: 193.23.201.65
   skip-cert-verify: false
   client-fingerprint: safari
+- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
+  server: dissolvedvpn.eu.cc
+  port: 443
+  udp: true
+  type: hysteria2
+  password: dissolved-vpn-pass
+  sni: dissolvedvpn.eu.cc
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,6 +74,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,5 +85,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 rules:
 - MATCH,PROXIES
