@@ -4,14 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "167.82.76.7",
+      "server": "104.21.81.162",
       "server_port": 443,
-      "password": "mitivpn",
+      "uuid": "20836693-ea23-4f40-a1e7-48a6da897917",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "netra-85a0ca.shoameni19.workers.dev",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -23,8 +23,9 @@
       },
       "transport": {
         "type": "ws",
+        "path": "/vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui",
         "headers": {
-          "Host": "mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net"
+          "Host": "netra-85a0ca.shoameni19.workers.dev"
         }
       }
     },
