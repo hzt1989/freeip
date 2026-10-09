@@ -5,34 +5,49 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  server: 188.114.97.6
+  port: 8080
+  udp: true
+  type: vless
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 194.87.68.140
+  port: 50660
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 194.38.11.86
   port: 65443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: srv-17e124.21freedom.net
-  port: 11592
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 5.42.99.64
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04=
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 185.147.27.183
   port: 8443
   udp: true
   type: vless
-  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
-    short-id: 3cbc3d737fb9c4af
-  servername: du-rov.secureservice.top
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  servername: user-6a917f32.noooo.win
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -54,6 +69,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -63,5 +80,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 rules:
 - MATCH,PROXIES
