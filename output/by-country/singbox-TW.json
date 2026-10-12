@@ -11,7 +11,7 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
+        "server_name": "t.me",
         "insecure": true
       }
     },
@@ -23,7 +23,7 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
+        "server_name": "off",
         "insecure": true
       }
     },
@@ -47,22 +47,12 @@
       }
     },
     {
-      "type": "tuic",
+      "type": "shadowsocks",
       "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-      "server": "tw5.dexlos.com",
-      "server_port": 8080,
-      "uuid": "8A9905B7-801B-41AF-BFC9-2034212770F6",
-      "password": "8A9905B7-801B-41AF-BFC9-2034212770F6",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "tw5.dexlos.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
+      "server": "tt.good2026.com",
+      "server_port": 11121,
+      "method": "chacha20-ietf-poly1305",
+      "password": "99234c60-b01a-4d67-889a-cab58ab0061a"
     },
     {
       "type": "selector",
