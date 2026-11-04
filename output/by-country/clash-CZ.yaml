@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   client-fingerprint: firefox
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 193.124.17.190
+  server: server.slavkiti.monster
   port: 443
   udp: true
   type: vless
@@ -27,7 +27,7 @@ proxies:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
     short-id: ee1716767f9b
   servername: www.tradingview.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
