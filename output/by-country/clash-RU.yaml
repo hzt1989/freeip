@@ -45,12 +45,12 @@ proxies:
   grpc-opts:
     grpc-service-name: vlgrpc
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 46.17.46.27
-  port: 18443
+  server: 185.4.115.146
+  port: 1355
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  cipher: chacha20-ietf-poly1305
+  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: xsru1.ddnsfree.com
   port: 443
