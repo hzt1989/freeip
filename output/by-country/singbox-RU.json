@@ -37,16 +37,13 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "185.178.208.167",
+      "server": "185.197.193.137",
       "server_port": 443,
-      "uuid": "4eebdec5-08eb-4772-a0e6-35fec4c91cb0",
+      "uuid": "313b84fa-b922-500f-9b65-acb67c040cc0",
       "tls": {
         "enabled": true,
-        "server_name": "uwugirl.dev",
+        "server_name": "us2.v2less.site",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -54,9 +51,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/player/collect/9c8514f9552d/",
+        "path": "/vless",
         "headers": {
-          "Host": "speakpro.lol"
+          "Host": "us2.v2less.site"
         }
       }
     },
