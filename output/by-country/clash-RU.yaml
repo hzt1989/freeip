@@ -25,20 +25,18 @@ proxies:
   grpc-opts:
     grpc-service-name: vlgrpc
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 185.197.193.137
+  server: 201.51.12.98
   port: 443
   udp: true
   type: vless
-  uuid: 313b84fa-b922-500f-9b65-acb67c040cc0
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   tls: true
-  servername: us2.v2less.site
+  servername: vps3.nemnogogo.com
   skip-cert-verify: false
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: us2.v2less.site
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
 proxy-groups:
 - name: PROXIES
   type: select
